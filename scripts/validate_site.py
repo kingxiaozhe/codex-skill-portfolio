@@ -21,8 +21,12 @@ ASSETS = [
     SITE / "assets" / "favicon.png",
 ]
 FONT_ASSETS = [
-    SITE / "assets" / "fonts" / "geist-latin.woff2",
-    SITE / "assets" / "fonts" / "geist-mono-latin.woff2",
+    SITE / "assets" / "fonts" / "ibm-plex-mono-regular.woff2",
+    SITE / "assets" / "fonts" / "ibm-plex-mono-medium.woff2",
+    SITE / "assets" / "fonts" / "ibm-plex-mono-bold.woff2",
+    SITE / "assets" / "fonts" / "ibm-plex-sans-sc-site-regular.woff2",
+    SITE / "assets" / "fonts" / "ibm-plex-sans-sc-site-medium.woff2",
+    SITE / "assets" / "fonts" / "OFL-IBM-Plex.txt",
     SITE / "assets" / "fonts" / "OFL-1.1.txt",
     SITE / "assets" / "fonts" / "SOURCES.md",
 ]
@@ -54,13 +58,16 @@ def main() -> None:
     assert "@media (max-width: 640px)" in stylesheet
     assert "text-wrap: balance" in stylesheet and "text-wrap: pretty" in stylesheet
     assert "PingFang SC" in stylesheet and "html[lang=\"en\"]" in stylesheet
-    assert "@font-face" in experience and "Geist Portfolio" in experience
+    assert "@font-face" in experience and "IBM Plex Mono Portfolio" in experience
+    assert "IBM Plex Sans SC Portfolio" in experience
+    assert "ibm-plex-mono-medium.woff2" in chinese and "ibm-plex-mono-bold.woff2" in english
+    assert "ibm-plex-sans-sc-site-medium.woff2" in chinese
     assert "backdrop-filter: blur(24px)" in experience and "prefers-reduced-transparency" in experience
     assert "animation-timeline: view()" in experience and "prefers-reduced-motion" in experience
     assert "font-size: 18px" in experience, "body text scale must remain readable"
     assert "hero-workflow-desk.avif" in chinese and "hero-workflow-desk.avif" in english
     assert "/Users/zero/" not in stylesheet and "/Users/zero/" not in experience
-    print("OK: bilingual static site, self-hosted licensed fonts, glass header, CSS motion, public links, and accessibility safeguards")
+    print("OK: bilingual static site, self-hosted IBM Plex fonts, glass header, CSS motion, public links, and accessibility safeguards")
 
 
 if __name__ == "__main__":

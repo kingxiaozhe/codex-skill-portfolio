@@ -12,15 +12,16 @@
     <meta property="og:locale:alternate" content="en_US">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="alternate" hreflang="zh-CN" href="./">
-    <link rel="alternate" hreflang="en" href="en/">
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <link rel="preload" href="assets/fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="experience.css">
     <title>kingxiaozhe - Skill Systems</title>
   </head>
   <body>
     <a class="skip-link" href="#main">跳到主要内容</a>
     <header class="site-header">
-      <a class="wordmark" href="#top" aria-label="kingxiaozhe Skill Systems 首页">kingxiaozhe<span>/</span>skills</a>
+      <a class="wordmark" href="#top">kingxiaozhe<span>/</span>skills</a>
       <nav aria-label="主导航"><a href="#work">作品</a><a href="#method">方法</a><a href="#audit">审计</a></nav>
       <div class="header-actions"><a class="language-switch" href="en/" lang="en">EN</a><a class="header-link" href="https://github.com/kingxiaozhe" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
     </header>
@@ -29,30 +30,32 @@
       <section class="hero" id="top" aria-labelledby="hero-title">
         <div class="hero-copy reveal">
           <p class="eyebrow">公开 AI Agent 工作流</p>
-          <h1 id="hero-title">让 Skill 成为真正能交付的系统。</h1>
+          <h1 id="hero-title">让 Skill <span class="accent-word">真正交付</span>。</h1>
           <p class="hero-summary">可复用、可验证、可公开的工作流，覆盖研究、写作、设计与可靠的 Agent 交付。</p>
-          <div class="hero-actions"><a class="button button-primary" href="#work">浏览代表作品 <span aria-hidden="true">↓</span></a><a class="button button-secondary" href="https://github.com/kingxiaozhe/codex-skill-portfolio" target="_blank" rel="noreferrer">查看完整审计 <span aria-hidden="true">↗</span></a></div>
+          <div class="hero-actions"><a class="button button-primary" href="#work">浏览代表作品</a><a class="button button-secondary" href="https://github.com/kingxiaozhe/codex-skill-portfolio" target="_blank" rel="noreferrer">查看完整审计 <span aria-hidden="true">↗</span></a></div>
         </div>
-        <figure class="hero-image reveal reveal-delay"><img src="assets/hero-workflow-desk.png" width="1586" height="992" alt="深色研究工作台上摆放着笔记本、图纸与绿色金属标记。"></figure>
+        <figure class="hero-image reveal reveal-delay"><img src="assets/hero-workflow-desk.avif" width="1200" height="750" fetchpriority="high" decoding="async" alt="深色研究工作台上摆放着笔记本、图纸与绿色金属标记。"></figure>
       </section>
 
       <section class="proof" aria-label="作品集事实"><div><strong>11</strong><span>公开项目</span></div><div><strong>74</strong><span>已审计的 Skill 入口</span></div><div><strong>1</strong><span>套清晰的归属标准</span></div></section>
 
+      <section class="skill-rail" aria-label="公开项目索引"><div class="skill-rail-track"><div class="skill-rail-group"><span>DAO SKILL</span><span>XBRIEF</span><span>WEWRITE</span><span>COVER SYSTEMS</span><span>EVIDENCE PERSON LENS</span></div><div class="skill-rail-group" aria-hidden="true"><span>DAO SKILL</span><span>XBRIEF</span><span>WEWRITE</span><span>COVER SYSTEMS</span><span>EVIDENCE PERSON LENS</span></div></div></section>
+
       <section class="work-section" id="work" aria-labelledby="work-title">
-        <div class="section-intro"><p class="eyebrow">代表作品</p><h2 id="work-title">解决真实工作里的问题。</h2><p>每个项目都有明确的任务边界、可复用的输出，以及可检查的公开来源。</p></div>
+        <div class="section-intro"><h2 id="work-title">解决真实工作里的问题。</h2><p>每个项目都有明确的任务边界、可复用的输出，以及可检查的公开来源。</p></div>
         <div class="project-grid">
           <article class="project project-featured direction-graph"><div class="project-content"><p class="project-kind">Skill 架构</p><h3>Dao Skill</h3><p>把模糊需求变成可运行、可验证、可进化的 Agent Skill。</p><a href="https://github.com/kingxiaozhe/dao-skill" target="_blank" rel="noreferrer">打开仓库 <span aria-hidden="true">↗</span></a></div></article>
-          <article class="project project-image-card"><img src="assets/evidence-materials.png" width="1122" height="1402" alt="层叠的研究材料、技术标记与放大镜。"><div class="project-content"><p class="project-kind">证据工作流</p><h3>XBrief</h3><p>围绕 X 内容与研究线索的证据边界采集和分析。</p><a href="https://github.com/kingxiaozhe/xbrief" target="_blank" rel="noreferrer">打开仓库 <span aria-hidden="true">↗</span></a></div></article>
+          <article class="project project-image-card"><img src="assets/evidence-materials.avif" width="800" height="999" loading="lazy" decoding="async" alt="层叠的研究材料、技术标记与放大镜。"><div class="project-content"><p class="project-kind">证据工作流</p><h3>XBrief</h3><p>围绕 X 内容与研究线索的证据边界采集和分析。</p><a href="https://github.com/kingxiaozhe/xbrief" target="_blank" rel="noreferrer">打开仓库 <span aria-hidden="true">↗</span></a></div></article>
           <article class="project project-neutral"><div class="project-content"><p class="project-kind">内容发布系统</p><h3>WeWrite</h3><p>从选题研究、写作到编辑审校与发布的模块化中文工作流。</p><a href="https://github.com/kingxiaozhe/wewrite" target="_blank" rel="noreferrer">打开仓库 <span aria-hidden="true">↗</span></a></div></article>
-          <article class="project project-image-wide"><img src="assets/visual-systems.png" width="1536" height="1024" alt="深色桌面上的抽象印刷品、透明网格和绿色尺子。"><div class="project-content"><p class="project-kind">视觉系统</p><h3>Cover Systems Studio</h3><p>用于商业科技与编辑内容的原创、可授权视觉方向。</p><a href="https://github.com/kingxiaozhe/cover-systems-studio" target="_blank" rel="noreferrer">打开仓库 <span aria-hidden="true">↗</span></a></div></article>
+          <article class="project project-image-wide"><img src="assets/visual-systems.avif" width="1000" height="666" loading="lazy" decoding="async" alt="深色桌面上的抽象印刷品、透明网格和绿色尺子。"><div class="project-content"><p class="project-kind">视觉系统</p><h3>Cover Systems Studio</h3><p>用于商业科技与编辑内容的原创、可授权视觉方向。</p><a href="https://github.com/kingxiaozhe/cover-systems-studio" target="_blank" rel="noreferrer">打开仓库 <span aria-hidden="true">↗</span></a></div></article>
           <article class="project project-accent"><div class="project-content"><p class="project-kind">人物公开资料研究</p><h3>Evidence Person Lens</h3><p>以公开来源为界，明确排除诊断、私生活猜测和身份模仿。</p><a href="https://github.com/kingxiaozhe/evidence-person-lens" target="_blank" rel="noreferrer">打开仓库 <span aria-hidden="true">↗</span></a></div></article>
         </div>
       </section>
 
-      <section class="method-section" id="method" aria-labelledby="method-title"><div class="method-visual"><img src="assets/evidence-materials.png" width="1122" height="1402" alt="桌面上层叠摆放着研究用材料。"></div><div class="method-copy"><p class="eyebrow">构建方式</p><h2 id="method-title">为了复用而设计，为了交付而验证。</h2><p>这些不是一次性的提示词合集。一个值得公开的 Skill 需要明确的触发边界、输出契约、验证证据，以及清楚的排除项。</p><ol class="method-list"><li><strong>把任务说清楚</strong><span>一个可重复完成的目标，配上明确的输入与输出边界。</span></li><li><strong>用真实触发验证</strong><span>确认它会在正确请求出现时启动，也会避开不相关的工作。</span></li><li><strong>负责任地公开</strong><span>不把密钥、个人材料、上游成果或没有证据的结论带进发布包。</span></li></ol></div></section>
+      <section class="method-section" id="method" aria-labelledby="method-title"><div class="method-visual"><img src="assets/evidence-materials.avif" width="800" height="999" loading="lazy" decoding="async" alt="桌面上层叠摆放着研究用材料。"></div><div class="method-copy"><h2 id="method-title">为了复用而设计，为了交付而验证。</h2><p>这些不是一次性的提示词合集。一个值得公开的 Skill 需要明确的触发边界、输出契约、验证证据，以及清楚的排除项。</p><ol class="method-list"><li><strong>把任务说清楚</strong><span>一个可重复完成的目标，配上明确的输入与输出边界。</span></li><li><strong>用真实触发验证</strong><span>确认它会在正确请求出现时启动，也会避开不相关的工作。</span></li><li><strong>负责任地公开</strong><span>不把密钥、个人材料、上游成果或没有证据的结论带进发布包。</span></li></ol></div></section>
 
-      <section class="audit-section" id="audit" aria-labelledby="audit-title"><div class="audit-copy"><p class="eyebrow">边界同样重要</p><h2 id="audit-title">作品集也应记录克制。</h2><p>每个本地安装的 Skill 都先经过归类，才会被当作个人作品展示。原创项目公开发布，上游项目保留原始署名，机器绑定、隐私、授权不足或风险不明的内容不会被公开。</p><a class="button button-primary" href="https://github.com/kingxiaozhe/codex-skill-portfolio" target="_blank" rel="noreferrer">阅读完整审计 <span aria-hidden="true">↗</span></a></div><dl class="audit-list"><div><dt>已发布</dt><dd>有公开源码仓库的原创项目。</dd></div><div><dt>已引用</dt><dd>保留原作者归属的第三方工具。</dd></div><div><dt>暂不公开</dt><dd>涉及隐私、授权、来源不明或安全边界的内容。</dd></div></dl></section>
-      <section class="closing" aria-labelledby="closing-title"><p class="eyebrow">开放源码，清晰边界</p><h2 id="closing-title">让 Agent 更可靠地工作。</h2><a class="button button-primary" href="https://github.com/kingxiaozhe" target="_blank" rel="noreferrer">访问 GitHub 主页 <span aria-hidden="true">↗</span></a></section>
+      <section class="audit-section" id="audit" aria-labelledby="audit-title"><div class="audit-copy"><h2 id="audit-title">作品集也应记录克制。</h2><p>每个本地安装的 Skill 都先经过归类，才会被当作个人作品展示。原创项目公开发布，上游项目保留原始署名，机器绑定、隐私、授权不足或风险不明的内容不会被公开。</p><a class="button button-primary" href="https://github.com/kingxiaozhe/codex-skill-portfolio" target="_blank" rel="noreferrer">阅读完整审计 <span aria-hidden="true">↗</span></a></div><dl class="audit-list"><div><dt>已发布</dt><dd>有公开源码仓库的原创项目。</dd></div><div><dt>已引用</dt><dd>保留原作者归属的第三方工具。</dd></div><div><dt>暂不公开</dt><dd>涉及隐私、授权、来源不明或安全边界的内容。</dd></div></dl></section>
+      <section class="closing" aria-labelledby="closing-title"><h2 id="closing-title">让 Agent 更可靠地工作。</h2><a class="button button-primary" href="https://github.com/kingxiaozhe" target="_blank" rel="noreferrer">访问 GitHub 主页 <span aria-hidden="true">↗</span></a></section>
     </main>
     <footer><a class="wordmark" href="#top">kingxiaozhe<span>/</span>skills</a><p>公开 Skill 作品集与已审计的生态索引。</p><a href="https://github.com/kingxiaozhe/codex-skill-portfolio/blob/main/LICENSE" target="_blank" rel="noreferrer">MIT 许可证 <span aria-hidden="true">↗</span></a></footer>
   </body>

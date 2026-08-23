@@ -12,7 +12,7 @@ It is an index, not a bulk mirror. That keeps installation convenient while maki
 
 ## Portfolio website
 
-The dependency-free public showcase lives in [`site/`](site/). It includes original visual assets, responsive layouts, localized Chinese (`/`) and English (`/en/`) entry points, reduced-motion support, and no tracking or server-side dependency. See [the deployment guide](site/DEPLOY.md) to publish it on your own domain server.
+The dependency-free public showcase lives in [`site/`](site/). It includes original visual assets, self-hosted OFL fonts, a native-CSS motion layer, responsive layouts, localized Chinese (`/`) and English (`/en/`) entry points, reduced-motion support, and no tracking or server-side dependency. See [the deployment guide](site/DEPLOY.md) to publish it on your own domain server.
 
 ## Published work
 

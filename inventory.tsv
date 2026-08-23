@@ -1,0 +1,75 @@
+name	decision	canonical_home	why
+.system	system-bundle	https://openai.com/	OpenAI bundled skills; do not mirror or claim authorship.
+agent-reach	upstream-reference	https://github.com/Panniantong/Agent-Reach	Upstream homepage is declared in the installed Skill.
+architect	runtime-component	https://github.com/scalarian/oh-my-codex	Exact local copy of the oh-my-codex runtime component.
+article-to-social-cards	published	https://github.com/kingxiaozhe/article-to-social-cards	Public project already maintained under kingxiaozhe.
+autoresearch	runtime-component	https://github.com/scalarian/oh-my-codex	Exact local copy of the oh-my-codex runtime component.
+beautify-github-readme	private-pending-provenance		No verifiable source or license for the installed copy; use the original public alternative readme-storyboard instead.
+chrome-cdp	private-pending-provenance		No verifiable source or license for the installed copy.
+cm-plugin-backend-engineer	existing-public-project	https://github.com/kingxiaozhe/cm-workflow	Part of the CM Workflow family; retain project-level publication instead of splitting it into a new mirror.
+cm-plugin-devops-engineer	existing-public-project	https://github.com/kingxiaozhe/cm-workflow	Part of the CM Workflow family; retain project-level publication instead of splitting it into a new mirror.
+cm-plugin-doc-syncer	existing-public-project	https://github.com/kingxiaozhe/cm-workflow	Part of the CM Workflow family; retain project-level publication instead of splitting it into a new mirror.
+cm-plugin-extension-engineer	existing-public-project	https://github.com/kingxiaozhe/cm-workflow	Part of the CM Workflow family; retain project-level publication instead of splitting it into a new mirror.
+cm-plugin-product-manager	existing-public-project	https://github.com/kingxiaozhe/cm-workflow	Part of the CM Workflow family; retain project-level publication instead of splitting it into a new mirror.
+cm-plugin-qa-engineer	existing-public-project	https://github.com/kingxiaozhe/cm-workflow	Part of the CM Workflow family; retain project-level publication instead of splitting it into a new mirror.
+cm-plugin-ui-engineer	existing-public-project	https://github.com/kingxiaozhe/cm-workflow	Part of the CM Workflow family; retain project-level publication instead of splitting it into a new mirror.
+codebase-context	existing-public-project	https://github.com/kingxiaozhe/cm-workflow	Exact copies exist in the installed CM Workflow plugin cache.
+codex-deepseek-subagent	private-machine-specific		Desktop-runtime and credential-store integration; retain locally until independent ownership and a portable threat model are established.
+craft-diorama-still-life	published	https://github.com/kingxiaozhe/craft-diorama-still-life	Original public package with a verified release.
+dao-skill	published	https://github.com/kingxiaozhe/dao-skill	Public Dao project maintained under kingxiaozhe; keep upstream attribution where applicable.
+darwin-skill	upstream-reference	https://github.com/alchaincyf/darwin-skill	Installed documentation names the upstream project.
+deep-interview	runtime-component	https://github.com/scalarian/oh-my-codex	Exact local copy of the oh-my-codex runtime component.
+doctor	runtime-component	https://github.com/scalarian/oh-my-codex	Exact local copy of the oh-my-codex runtime component.
+editorial-tech-cover	published	https://github.com/kingxiaozhe/editorial-tech-cover	Original public package with a verified release.
+executor	runtime-component	https://github.com/scalarian/oh-my-codex	Exact local copy of the oh-my-codex runtime component.
+fengshu-writer	private-content-bound		Contains a personal writing workflow and material that must not be published as a raw standalone package.
+feynman-perspective	upstream-reference	https://github.com/alchaincyf/nuwa-skill	Installed README attributes Nuwa and MIT licensing.
+god-skill	private-safety-bound		The installed workflow invites unsupported trauma/death/private-life claims; do not publish it. Use evidence-person-lens instead.
+gsap-core	upstream-reference	https://gsap.com/	Third-party GSAP documentation package; do not mirror.
+gsap-frameworks	upstream-reference	https://gsap.com/	Third-party GSAP documentation package; do not mirror.
+gsap-performance	upstream-reference	https://gsap.com/	Third-party GSAP documentation package; do not mirror.
+gsap-plugins	upstream-reference	https://gsap.com/	Third-party GSAP documentation package; do not mirror.
+gsap-react	upstream-reference	https://gsap.com/	Third-party GSAP documentation package; do not mirror.
+gsap-scrolltrigger	upstream-reference	https://gsap.com/	Third-party GSAP documentation package; do not mirror.
+gsap-timeline	upstream-reference	https://gsap.com/	Third-party GSAP documentation package; do not mirror.
+gsap-utils	upstream-reference	https://gsap.com/	Third-party GSAP documentation package; do not mirror.
+gzh-design	upstream-reference	https://github.com/isjiamu/gzh-design-skill	Installed Git remote identifies the upstream project.
+huashu-design	upstream-reference	https://github.com/alchaincyf/huashu-design	Installed Git remote identifies the upstream project; the kingxiaozhe repository remains an attributed fork.
+hud	runtime-component	https://github.com/scalarian/oh-my-codex	Exact local copy of the oh-my-codex runtime component.
+i-have-adhd	private-pending-provenance		MIT text is present but original author and repository are not verifiable from the installed copy.
+idea-to-prd	private-pending-provenance		No verifiable source or license for the installed copy.
+khazix-writer	private-permission-required		Named creator's personal voice; publication needs that creator's explicit written permission.
+last30days	upstream-reference	https://github.com/mvanhorn/last30days-skill	Installed frontmatter declares repository, author, and MIT license.
+mlx4ocr	upstream-reference	https://github.com/shuuul/mlx4ocr	Installed frontmatter declares the upstream source and MIT license.
+munger-perspective	upstream-reference	https://github.com/alchaincyf/nuwa-skill	Installed README attributes Nuwa and MIT licensing.
+nuwa-business-panel	published	https://github.com/kingxiaozhe/xbrief	Released as part of the xbrief repository; it is not a separate mirror.
+openai-docs	system-bundle	https://openai.com/	OpenAI bundled documentation skill; do not mirror or claim authorship.
+paul-graham-perspective	upstream-reference	https://github.com/alchaincyf/nuwa-skill	Installed README attributes Nuwa and MIT licensing.
+pdf	system-bundle	https://openai.com/	OpenAI bundled PDF skill; do not mirror or claim authorship.
+plan	runtime-component	https://github.com/scalarian/oh-my-codex	Exact local copy of the oh-my-codex runtime component.
+playwright	system-bundle	https://openai.com/	OpenAI bundled browser-testing skill; do not mirror or claim authorship.
+punk-cover	upstream-no-republish	https://github.com/adrianpunk/Punk-Skill	Third-party source has no verified license in the installed vendor copy; use cover-systems-studio instead.
+research	runtime-component	https://github.com/scalarian/oh-my-codex	Exact local copy of the oh-my-codex runtime component.
+review	runtime-component	https://github.com/scalarian/oh-my-codex	Exact local copy of the oh-my-codex runtime component.
+reviewer	runtime-component	https://github.com/scalarian/oh-my-codex	Exact local copy of the oh-my-codex runtime component.
+screenshot	system-bundle	https://openai.com/	OpenAI bundled screenshot skill; do not mirror or claim authorship.
+speech	system-bundle	https://openai.com/	OpenAI bundled speech skill; do not mirror or claim authorship.
+taste-skill	private-pending-provenance		No verifiable source or license for the installed copy.
+tdd	runtime-component	https://github.com/scalarian/oh-my-codex	Exact local copy of the oh-my-codex runtime component.
+team	runtime-component	https://github.com/scalarian/oh-my-codex	Exact local copy of the oh-my-codex runtime component.
+trace	runtime-component	https://github.com/scalarian/oh-my-codex	Exact local copy of the oh-my-codex runtime component.
+transcribe	system-bundle	https://openai.com/	OpenAI bundled transcription skill; do not mirror or claim authorship.
+ultrawork	runtime-component	https://github.com/scalarian/oh-my-codex	Exact local copy of the oh-my-codex runtime component.
+web-pro-router	private-pending-provenance		No verifiable source or license for the installed copy.
+wewrite	existing-public-project	https://github.com/kingxiaozhe/wewrite	Published as one coherent writing-workflow project.
+wewrite-learn	existing-public-project	https://github.com/kingxiaozhe/wewrite	Published as a module in the WeWrite project.
+wewrite-publish	existing-public-project	https://github.com/kingxiaozhe/wewrite	Published as a module in the WeWrite project.
+wewrite-review	existing-public-project	https://github.com/kingxiaozhe/wewrite	Published as a module in the WeWrite project.
+wewrite-rewrite	existing-public-project	https://github.com/kingxiaozhe/wewrite	Published as a module in the WeWrite project.
+wewrite-stats	existing-public-project	https://github.com/kingxiaozhe/wewrite	Published as a module in the WeWrite project.
+wewrite-style	existing-public-project	https://github.com/kingxiaozhe/wewrite	Published as a module in the WeWrite project.
+wewrite-topic	existing-public-project	https://github.com/kingxiaozhe/wewrite	Published as a module in the WeWrite project.
+wewrite-visual	existing-public-project	https://github.com/kingxiaozhe/wewrite	Published as a module in the WeWrite project.
+wewrite-write	existing-public-project	https://github.com/kingxiaozhe/wewrite	Published as a module in the WeWrite project.
+xbrief	published	https://github.com/kingxiaozhe/xbrief	Original public package with a verified release.
+yao-meta-skill	upstream-reference	https://github.com/yaojingang/yao-meta-skill	Public upstream project; preserve its attribution.

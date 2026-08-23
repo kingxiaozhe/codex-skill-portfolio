@@ -10,6 +10,10 @@ This repository deliberately separates three things that are often mixed togethe
 
 It is an index, not a bulk mirror. That keeps installation convenient while making authorship and licensing honest.
 
+## Portfolio website
+
+The dependency-free public showcase lives in [`site/`](site/). It includes original visual assets, responsive layouts, reduced-motion support, and no tracking or server-side dependency. See [the deployment guide](site/DEPLOY.md) to publish it on your own domain server.
+
 ## Published work
 
 | Project | What it contributes |

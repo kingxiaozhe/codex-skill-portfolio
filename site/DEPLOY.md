@@ -7,6 +7,8 @@ For example, if the site's document root is `/var/www/skills.example.com`, the f
 ```text
 /var/www/skills.example.com/
   index.html
+  en/
+    index.html
   styles.css
   assets/
 ```
@@ -34,7 +36,7 @@ server {
 
 Enable HTTPS with the certificate workflow you already use for the server. The website contains no API, database, form, cookie, tracking code, or environment variable.
 
-After the domain is live, replace the relative `og:image` value in `index.html` with its final absolute URL, for example `https://skills.example.com/assets/hero-workflow-desk.png`. This enables reliable social sharing previews.
+After the domain is live, replace the relative `og:image` value in both `index.html` and `en/index.html` with its final absolute URL, for example `https://skills.example.com/assets/hero-workflow-desk.png`. This enables reliable social sharing previews.
 
 Before upload, run the repository checks from the project root:
 
